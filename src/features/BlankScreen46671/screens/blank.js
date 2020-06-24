@@ -137,71 +137,6 @@ export class _Blank extends React.Component {
             backgroundSize: "auto"
           }}
         >
-          <Icon
-            iconFont="Eva Design Icons"
-            name="github"
-            width={20}
-            height={20}
-            style={{
-              marginLeft: "0pt",
-              marginRight: "0pt",
-              marginTop: "5pt",
-              marginBottom: "5pt",
-              paddingLeft: "5pt",
-              paddingRight: "5pt",
-              paddingTop: "5pt",
-              paddingBottom: "5pt",
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: "0pt",
-              borderLeftWidth: "0pt",
-              borderRightWidth: "0pt",
-              borderTopWidth: "0pt",
-              borderBottomWidth: "0pt",
-              borderRadius: "0pt",
-              fontSize: "20pt",
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontFamily: "System"
-            }}
-          />
-          <Button
-            style={{
-              width: "50%",
-              marginLeft: "0pt",
-              marginRight: "0pt",
-              marginTop: "5pt",
-              marginBottom: "5pt",
-              paddingLeft: "5pt",
-              paddingRight: "5pt",
-              paddingTop: "5pt",
-              paddingBottom: "5pt",
-              overflow: "visible",
-              verticalAlign: "baseline",
-              fontSize: "20pt",
-              color: "#000000",
-              backgroundColor: "#336600",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontFamily: "System",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: "0pt",
-              borderLeftWidth: "0pt",
-              borderRightWidth: "0pt",
-              borderTopWidth: "0pt",
-              borderBottomWidth: "0pt",
-              borderRadius: "0pt"
-            }}
-            onPress={() => alert("Pressed!")}
-          >
-            Press me!
-          </Button>
           <Input
             placeholder="Sample Number Input Placeholder"
             editable={true}
@@ -307,65 +242,6 @@ export class _Blank extends React.Component {
             backgroundSize: "auto"
           }}
         >
-          <Icon
-            iconFont="Eva Design Icons"
-            name="twitter"
-            width={20}
-            height={20}
-            style={{
-              marginLeft: "0pt",
-              marginRight: "0pt",
-              marginTop: "5pt",
-              marginBottom: "5pt",
-              paddingLeft: "5pt",
-              paddingRight: "5pt",
-              paddingTop: "5pt",
-              paddingBottom: "5pt",
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: "0pt",
-              borderLeftWidth: "0pt",
-              borderRightWidth: "0pt",
-              borderTopWidth: "0pt",
-              borderBottomWidth: "0pt",
-              borderRadius: "0pt",
-              fontSize: "20pt",
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontFamily: "System"
-            }}
-          />
-          <Image
-            resizeMode="cover"
-            style={{
-              width: "100%",
-              marginLeft: "0pt",
-              marginRight: "0pt",
-              marginTop: "0pt",
-              marginBottom: "0pt",
-              paddingLeft: "0pt",
-              paddingRight: "0pt",
-              paddingTop: "0pt",
-              paddingBottom: "0pt",
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: "0pt",
-              borderLeftWidth: "0pt",
-              borderRightWidth: "0pt",
-              borderTopWidth: "0pt",
-              borderBottomWidth: "0pt",
-              borderRadius: "0pt",
-              fontFamily: "System"
-            }}
-          />
           <Input
             placeholder="Sample text input placeholder"
             editable={true}
