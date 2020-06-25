@@ -18,12 +18,7 @@ export class _Blank extends React.Component {
     title: "Blank".toUpperCase()
   }
 
-  state = {
-    Input_3: "",
-    Datepicker_35: new Date("06/24/2020"),
-    Input_29: "",
-    Input_33: ""
-  }
+  state = { Input_3: "", Input_29: "", Input_33: "" }
 
   render = () => (
     <View
@@ -172,70 +167,6 @@ export class _Blank extends React.Component {
             value={this.state.Input_3}
             onChangeText={nextValue => this.setState({ Input_3: nextValue })}
           />
-          <Datepicker
-            style={{
-              width: "100%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 5,
-              marginBottom: 5,
-              paddingLeft: 5,
-              paddingRight: 5,
-              paddingTop: 5,
-              paddingBottom: 5,
-              overflow: "visible",
-              textAlign: "left",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#ffffff",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontFamily: "System",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0
-            }}
-            date={this.state.Datepicker_35}
-            onSelect={nextValue => this.setState({ Datepicker_35: nextValue })}
-          />
-          <Button
-            style={{
-              width: "100%",
-              marginLeft: 0,
-              marginRight: 0,
-              marginTop: 5,
-              marginBottom: 5,
-              paddingLeft: 5,
-              paddingRight: 5,
-              paddingTop: 5,
-              paddingBottom: 5,
-              overflow: "visible",
-              verticalAlign: "baseline",
-              fontSize: 20,
-              color: "#000000",
-              backgroundColor: "#3366FF",
-              fontStyle: "normal",
-              fontWeight: "normal",
-              fontFamily: "System",
-              borderColor: "#000000",
-              borderStyle: "solid",
-              borderWidth: 0,
-              borderLeftWidth: 0,
-              borderRightWidth: 0,
-              borderTopWidth: 0,
-              borderBottomWidth: 0,
-              borderRadius: 0
-            }}
-            onPress={() => alert("Pressed!")}
-          >
-            Press me!
-          </Button>
         </View>
         <View
           style={{
